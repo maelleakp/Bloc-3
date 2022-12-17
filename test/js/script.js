@@ -177,7 +177,7 @@ form2.mail2.addEventListener("keyup", function () {
     validMail2(this);
   });
   
-  form2.password2.addEventListener("keyup", function () {
+  form2.password3.addEventListener("keyup", function () {
     validPassword3(this);
   });
 
@@ -202,3 +202,4 @@ function checkPassJoueur() {
     }
 }
 
+ 
