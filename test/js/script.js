@@ -108,7 +108,7 @@ function checkPass()
     }
 }
 
-let form = document.querySelector("#myForm");
+let form = document.querySelector("#formInscription");
 
 form.nom.addEventListener("keyup", function () {
     validName(this);
@@ -171,13 +171,13 @@ const validMail2 = function (inputMail) {
       span.style.color = "red";
     }
   };
-let form2 = document.querySelector("#Form");
+let form2 = document.querySelector("#formLogin");
 
 form2.mail2.addEventListener("keyup", function () {
     validMail2(this);
   });
   
-  form2.password2.addEventListener("keyup", function () {
+  form2.password3.addEventListener("keyup", function () {
     validPassword3(this);
   });
 
@@ -202,3 +202,4 @@ function checkPassJoueur() {
     }
 }
 
+ 
